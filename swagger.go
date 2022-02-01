@@ -37,7 +37,7 @@ func EchoWrapHandlerName(swagID string, confs ...func(c *Config)) echo.HandlerFu
 	handler := swaggerFiles.Handler
 
 	config := &Config{
-		URL: "doc.json",
+		URL: "./doc.json",
 	}
 
 	// create a template with name
